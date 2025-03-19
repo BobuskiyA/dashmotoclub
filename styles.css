@@ -14,12 +14,10 @@ body{
 a {
     color: white;
     text-decoration: none;
-    font-size: 10px;
-    font-weight: 600;
 }
 
 label{
-    font-size: 8px;
+    font-size: 2vw;
     color: #B3B3B3;
 }
 
@@ -34,18 +32,21 @@ label{
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 3vw;
+    width: 100%;
+    height: 100%;
 }
 
 .certificate__header {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 1vw;
+    margin-top: 2%;
 }
 
 .certificate__logo {
-    width: 36px;
-    height: 36px;
+    width: 10vw;
+    height: 10vw;
 }
 .certificate__logo img {
     width: 100%;
@@ -56,13 +57,15 @@ label{
 .certificate__contats {
     display: flex;
     flex-direction: column;
+    font-size: 3vw;
+    font-weight: 600;
 }
 
 .certificate__title {
     display: flex;
     font-family: Bebas;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 14vw;
     text-transform: uppercase;
     flex-wrap: wrap;
     max-width: 40%;
@@ -75,41 +78,46 @@ label{
 
 .certificate__name {
     display: flex;
-    margin-top: 4.5%;
+    margin-top: 4%;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 5vw;
 }
 
 .certificate__text {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 2vw;
     margin-top: 6%;
-    max-width: 28%;
+    max-width: 26%;
 }
 
 .certificate__number {
     margin-top:4%;
 }
 
-.certificate__date {}
+.certificate__date {
+    margin-top: 2%;
+}
 
 .certificate__qrcode{
     display: flex;
-    margin-left: 57%;
-    margin-top: 16%;
+    position: absolute;
+    left: 73%;
+    bottom: 2%;
 }
 .certificate__qrcode img{
-    width: 70px;
-    height: 70px;
+    width: 22vw;
+    height: 22vw;
 }
 
 
 .certificate__background {
-    width: 297px;
-    height: 420px;
+    width: 100%;
+    height: 100%;
 }
 
 .date-number{
     font-family: Bebas;
     font-weight: 600;
+    font-size: 5vw;
+    margin-top: 1%;
 }
