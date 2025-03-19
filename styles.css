@@ -1,0 +1,115 @@
+@font-face{
+    font-family: Bebas;
+    src: url(Bebas_Neue_Cyrillic.ttf);
+}
+
+body{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+label{
+    font-size: 8px;
+    color: #B3B3B3;
+}
+
+.certificate {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.certificate__container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.certificate__header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.certificate__logo {
+    width: 36px;
+    height: 36px;
+}
+.certificate__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.certificate__contats {
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate__title {
+    display: flex;
+    font-family: Bebas;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-top: 2%;
+}
+
+.certificate__title span {
+    color: #20FF23;
+}
+
+.certificate__name {
+    display: flex;
+    margin-top: 4.5%;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.certificate__text {
+    font-weight: 400;
+    font-size: 8px;
+    margin-top: 6%;
+    max-width: 28%;
+}
+
+.certificate__number {
+    margin-top:4%;
+}
+
+.certificate__date {}
+
+.certificate__qrcode{
+    display: flex;
+    margin-left: 57%;
+    margin-top: 16%;
+}
+.certificate__qrcode img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.certificate__background {
+    width: 297px;
+    height: 420px;
+}
+
+.date-number{
+    font-family: Bebas;
+    font-weight: 600;
+}
