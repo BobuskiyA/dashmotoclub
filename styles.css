@@ -88,11 +88,6 @@ label{
     font-size: 5vw;
 }
 
-@media (max-width: 1440px) {
-    .certificate__name {
-        margin-top: 5vw;
-    }
-}
 .certificate__text {
     font-weight: 400;
     font-size: 2vw;
