@@ -79,7 +79,7 @@ label{
 
 .certificate__name {
     display: flex;
-    margin-top: 4%;
+    margin-top: 4vw;
     font-weight: 600;
     font-size: 5vw;
 }
